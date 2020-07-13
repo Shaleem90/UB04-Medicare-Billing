@@ -3,10 +3,10 @@
 <h3>Display List of Mock Patients</h3>
 
 <ul>
-  {{#each Patients}}
+  {{#each name}}
   	<li>
-  	   <p>ID: {{id}}</p>
-       <p>name: {{name}}</p>
+  	   {{!-- <p>ID: {{id}}</p> --}}
+       <p>name: {{this.dataValues.FL8_b}}</p>
   	</li>
   {{/each}}
 </ul>

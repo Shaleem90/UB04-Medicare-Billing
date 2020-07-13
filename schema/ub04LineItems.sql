@@ -1,0 +1,1 @@
+INSERT INTO dbo_UBO4LIneitems (Revenue_Code, Description, HCPS_Rates, Service_Date, Service_Units, Total_Charges, Noncovered_Charges) VALUES ("0001","Pediatric","452.66","11/02/2018","3","452.66","100.00"), ("0011","Orthopedic","125.66","07/28/2018","8","222.66","70.80"),("0007","Physical","325.66","04/28/2018","2","289.66","56.80")
