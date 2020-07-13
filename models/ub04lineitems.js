@@ -34,7 +34,7 @@ module.exports = function(sequelize, DataTypes) {
 
         Created_Date: { 
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: true
         },
 
         Service_Units: { 
