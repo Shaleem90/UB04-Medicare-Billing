@@ -1,5 +1,6 @@
 const db = require("../models");
 
+
 exports.index = (req, res) => {
     db.dbo_UB04.findAll({
        attributes: ["FL8_b"]

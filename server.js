@@ -16,6 +16,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, "public")));
 
 require("./routes")(app);
+
 module.exports = app;
 
 db.sequelize.sync().then(function () {
@@ -30,3 +31,4 @@ db.sequelize.sync().then(function () {
 app.listen(PORT, function() {
     console.log(`Listening on : http://localhost:${PORT}`);
 })
+
