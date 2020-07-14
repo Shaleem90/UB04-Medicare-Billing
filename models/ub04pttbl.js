@@ -1,12 +1,11 @@
 module.exports = function(sequelize, DataTypes) {
     const dbo_UB04 = sequelize.define("dbo_UB04", {
-      // Giving the Author model a name of type STRING
+     
         UB04Id: { 
             type: DataTypes.INTEGER,
             autoIncrement: true,
             primaryKey: true
         },
-
         PatientId: { 
             type: DataTypes.INTEGER,
             allowNull: false
@@ -16,12 +15,10 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING(30),
             allowNull: false
         },
-
         FL1_a: { 
             type: DataTypes.STRING(30),
             allowNull: false
         },
-
         FL1_b: { 
             type: DataTypes.STRING(30),
             allowNull: false
@@ -72,8 +69,15 @@ module.exports = function(sequelize, DataTypes) {
         FL4: { 
             type: DataTypes.STRING(4),
             allowNull: false
+        },
+
+
+        FL4: { 
+            type: DataTypes.STRING(4),
+            allowNull: false
             
         },
+
 
         FL5: { 
             type: DataTypes.STRING(20),
@@ -123,8 +127,15 @@ module.exports = function(sequelize, DataTypes) {
         FL9_d: { 
             type: DataTypes.STRING(7),
             allowNull: false
+        },
+
+
+        FL9_d: { 
+            type: DataTypes.STRING(7),
+            allowNull: false
             
         },
+
 
         FL9_e: { 
             type: DataTypes.STRING(4),
@@ -160,6 +171,7 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING(1),
             allowNull: false
         },
+
         FL16: { 
             type: DataTypes.STRING(2),
             allowNull: true
@@ -169,6 +181,12 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING(2),
             allowNull: true
         },
+
+        FL18: { 
+            type: DataTypes.STRING(2),
+            allowNull: true
+        },
+
 
         FL18: { 
             type: DataTypes.STRING(2),
@@ -215,7 +233,6 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING(2),
             allowNull: true
         },
-
         FL27: { 
             type: DataTypes.STRING(2),
             allowNull: true
@@ -224,8 +241,15 @@ module.exports = function(sequelize, DataTypes) {
         FL28: { 
             type: DataTypes.STRING(2),
             allowNull: true
+        },
+
+
+        FL28: { 
+            type: DataTypes.STRING(2),
+            allowNull: true
             
         },
+
 
         FL29: { 
             type: DataTypes.STRING(2),
@@ -265,8 +289,15 @@ module.exports = function(sequelize, DataTypes) {
         FL32_b: { 
             type: DataTypes.STRING(2),
             allowNull: true
+        },
+
+
+        FL32_b: { 
+            type: DataTypes.STRING(2),
+            allowNull: true
             
         },
+
 
         FL32_b1: { 
             type: DataTypes.STRING(10),
@@ -326,8 +357,14 @@ module.exports = function(sequelize, DataTypes) {
         FL35_a1: { 
             type: DataTypes.STRING(10),
             allowNull: true
+        },
+
+        FL35_a1: { 
+            type: DataTypes.STRING(10),
+            allowNull: true
             
         },
+
 
         FL35_a2: { 
             type: DataTypes.STRING(10),
@@ -377,8 +414,15 @@ module.exports = function(sequelize, DataTypes) {
         FL36_b2: { 
             type: DataTypes.STRING(10),
             allowNull: true
+        },
+
+
+        FL36_b2: { 
+            type: DataTypes.STRING(10),
+            allowNull: true
             
         },
+
 
         FL37_b: { 
             type: DataTypes.STRING(12),
@@ -444,6 +488,12 @@ module.exports = function(sequelize, DataTypes) {
         FL39_d1: { 
             type: DataTypes.STRING(2),
             allowNull: true
+        },
+
+
+        FL39_d1: { 
+            type: DataTypes.STRING(2),
+            allowNull: true
             
         },
 
@@ -495,8 +545,15 @@ module.exports = function(sequelize, DataTypes) {
         FL41_a1: { 
             type: DataTypes.STRING(2),
             allowNull: true
+        },
+
+
+        FL41_a1: { 
+            type: DataTypes.STRING(2),
+            allowNull: true
             
         },
+
 
         FL41_a2: { 
             type: DataTypes.STRING(10),
@@ -551,8 +608,15 @@ module.exports = function(sequelize, DataTypes) {
         FL51_a: { 
             type: DataTypes.STRING(20),
             allowNull: true
+        },
+
+
+        FL51_a: { 
+            type: DataTypes.STRING(20),
+            allowNull: true
             
         },
+
 
         FL51_b: { 
             type: DataTypes.STRING(20),
@@ -602,8 +666,15 @@ module.exports = function(sequelize, DataTypes) {
         FL54_b: { 
             type: DataTypes.STRING(20),
             allowNull: true
+        },
+
+
+        FL54_b: { 
+            type: DataTypes.STRING(20),
+            allowNull: true
             
         },
+
 
         FL54_c: { 
             type: DataTypes.STRING(20),
@@ -657,8 +728,15 @@ module.exports = function(sequelize, DataTypes) {
         FL58_c: { 
             type: DataTypes.STRING(50),
             allowNull: false
+        },
+
+
+        FL58_c: { 
+            type: DataTypes.STRING(50),
+            allowNull: false
             
         },
+
 
         FL59_a: { 
             type: DataTypes.STRING(5),
@@ -708,8 +786,15 @@ module.exports = function(sequelize, DataTypes) {
         FL62_a: { 
             type: DataTypes.STRING(15),
             allowNull: true
+        },
+
+
+        FL62_a: { 
+            type: DataTypes.STRING(15),
+            allowNull: true
             
         },
+
 
         FL62_b: { 
             type: DataTypes.STRING(15),
@@ -759,8 +844,15 @@ module.exports = function(sequelize, DataTypes) {
         FL65_b: { 
             type: DataTypes.STRING(30),
             allowNull: true
+        },
+
+
+        FL65_b: { 
+            type: DataTypes.STRING(30),
+            allowNull: true
             
         },
+
 
         FL65_c: { 
             type: DataTypes.STRING(30),
@@ -810,8 +902,15 @@ module.exports = function(sequelize, DataTypes) {
         FL67_g: { 
             type: DataTypes.STRING(10),
             allowNull: true
+        },
+
+
+        FL67_g: { 
+            type: DataTypes.STRING(10),
+            allowNull: true
             
         },
+
 
         FL67_h: { 
             type: DataTypes.STRING(10),
@@ -861,8 +960,15 @@ module.exports = function(sequelize, DataTypes) {
         FL67_q: { 
             type: DataTypes.STRING(10),
             allowNull: true
+        },
+
+
+        FL67_q: { 
+            type: DataTypes.STRING(10),
+            allowNull: true
             
         },
+
 
         FL68_a: { 
             type: DataTypes.STRING(10),
@@ -912,8 +1018,15 @@ module.exports = function(sequelize, DataTypes) {
         FL72_c: { 
             type: DataTypes.STRING(10),
             allowNull: true
+        },
+
+
+        FL72_c: { 
+            type: DataTypes.STRING(10),
+            allowNull: true
             
         },
+
 
         FL73: { 
             type: DataTypes.STRING(10),
@@ -963,6 +1076,11 @@ module.exports = function(sequelize, DataTypes) {
         FL74_d1: { 
             type: DataTypes.STRING(10),
             allowNull: true
+        },
+
+        FL74_d1: { 
+            type: DataTypes.STRING(10),
+            allowNull: true
             
         },
 
@@ -985,7 +1103,7 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING(20),
             allowNull: true
         },
-
+      
         FL76_a: { 
             type: DataTypes.STRING(10),
             allowNull: false
@@ -1009,6 +1127,11 @@ module.exports = function(sequelize, DataTypes) {
         FL76_e: { 
             type: DataTypes.STRING(20),
             allowNull: false
+        },
+
+        FL77_a: { 
+            type: DataTypes.STRING(10),
+            allowNull: true
         },
 
         FL77_a: { 
@@ -1065,8 +1188,15 @@ module.exports = function(sequelize, DataTypes) {
         FL78_e: { 
             type: DataTypes.STRING(20),
             allowNull: true
+        },
+
+
+        FL78_e: { 
+            type: DataTypes.STRING(20),
+            allowNull: true
             
         },
+
 
         FL79: { 
             type: DataTypes.STRING(20),
@@ -1121,8 +1251,15 @@ module.exports = function(sequelize, DataTypes) {
         FL81_a1: { 
             type: DataTypes.STRING(2),
             allowNull: false
+        },
+
+
+        FL81_a1: { 
+            type: DataTypes.STRING(2),
+            allowNull: false
             
         },
+
 
         FL81_a2: { 
             type: DataTypes.STRING(20),
@@ -1176,8 +1313,14 @@ module.exports = function(sequelize, DataTypes) {
         FL81_d3: { 
             type: DataTypes.STRING(20),
             allowNull: true
+        },
+
+        FL81_d3: { 
+            type: DataTypes.STRING(20),
+            allowNull: true
             
         },
+
 
         ModuleID: { 
             type: DataTypes.INTEGER,
@@ -1192,8 +1335,15 @@ module.exports = function(sequelize, DataTypes) {
         textInfo1: { 
             type: DataTypes.STRING(100),
             allowNull: true
+        },
+
+
+        textInfo1: { 
+            type: DataTypes.STRING(100),
+            allowNull: true
             
         },
+
 
         textInfo2: { 
             type: DataTypes.STRING(100),
@@ -1208,19 +1358,30 @@ module.exports = function(sequelize, DataTypes) {
         textInfo4: { 
             type: DataTypes.STRING(100),
             allowNull: true
+        },
+
+
+        textInfo4: { 
+            type: DataTypes.STRING(100),
+            allowNull: true
             
         },
+
 
         textInfo5: { 
             type: DataTypes.STRING(100),
             allowNull: true
         },
 
+    })
+
+
         
 
 
     })
   
+
     // dbo_UBO4LIneitems.associate = function(models) {
     //   // Associating Author with Posts
     //   // When an Author is deleted, also delete any associated Posts
