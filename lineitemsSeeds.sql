@@ -1,1 +1,0 @@
-INSERT INTO DB (Revenue_Code, Description, Page, HCPS_Rates, Service_Date, Created_Date, Service_Units, Total_Charges, Noncovererd_Charges, FL49) VALUES ()

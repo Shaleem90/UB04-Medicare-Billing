@@ -1,16 +1,14 @@
 const db = require("../models");
 
-
-exports.index = (req, res) => {
+exports.index = function (req, res) {
     db.dbo_UB04.findAll({
-       attributes: ["FL8_b"]
-    }).then(result => {
-        console.log(result)
+        attributes:["UB04Id","FL8_b"]
+    }).then(name => {
+        console.log(name)
         res.render("index", {
-            layouts: "main",
-            name: result
+            layouts:"main",
+            name
         });
-        
-    })
+    }).catch(err => console.log(err))
     
-};
+}
