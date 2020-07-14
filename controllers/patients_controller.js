@@ -10,5 +10,13 @@ exports.index = function (req, res) {
             name
         });
     }).catch(err => console.log(err))
+    // db.dbo_UBO4LIneitems.findAll({
+    // }).then(name => {
+    //     console.log(name)
+    //     res.render("index", {
+    //         layouts:"main",
+    //         name
+    //     });
+    // }).catch(err => console.log(err))
     
 }

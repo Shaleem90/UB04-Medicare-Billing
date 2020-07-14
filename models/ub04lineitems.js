@@ -7,49 +7,49 @@ module.exports = function(sequelize, DataTypes) {
             primaryKey: true
         },
 
-        Revenue_Code: { 
+        PatientId: { 
+            type: DataTypes.INTEGER,
+            allowNull: false
+        },
+
+        Client_Name: {
             type: DataTypes.STRING,
             allowNull: false
         },
 
-        Description: { 
-            type: DataTypes.STRING,
+        FL42_Revenue_Code: { 
+            type: DataTypes.TEXT,
             allowNull: false
         },
 
-        Page: { 
+        FL43_Description: { 
+            type: DataTypes.TEXT,
+            allowNull: false
+        },
+
+        FL44_HCPS_Rates: { 
             type: DataTypes.STRING,
             allowNull: true
         },
 
-        HCPS_Rates: { 
-            type: DataTypes.STRING,
-            allowNull: false
-        },
-
-        Service_Date: { 
-            type: DataTypes.STRING,
-            allowNull: false
-        },
-
-        Created_Date: { 
+        FL45_Service_Date: { 
             type: DataTypes.STRING,
             allowNull: true
         },
 
-        Service_Units: { 
-            type: DataTypes.STRING,
+        FL46_Service_Units: { 
+            type: DataTypes.TEXT,
             allowNull: false
         },
 
-        Total_Charges: { 
-            type: DataTypes.STRING,
-            allowNull: true
+        FL47_Total_Charges: { 
+            type: DataTypes.TEXT,
+            allowNull: false
             
         },
 
-        Noncovered_Charges: { 
-            type: DataTypes.STRING,
+        FL48_Noncovered_Charges: { 
+            type: DataTypes.TEXT,
             allowNull: true
         },
 
@@ -57,9 +57,6 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING,
             allowNull: true
         }
-
-        
-
 
     });
   
