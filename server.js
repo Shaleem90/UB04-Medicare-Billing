@@ -17,6 +17,7 @@ app.use(express.static(path.join(__dirname, "public")));
 
 require("./routes")(app);
 
+module.exports = app;
 db.sequelize.sync().then(function () {
 	// set our app to listen to the port we set above
   var server = app.listen(app.get('port'), function() {
@@ -25,9 +26,9 @@ db.sequelize.sync().then(function () {
     console.log(`Listening on port: ${PORT}`);
   }); 
 });
-// module.exports = app;
-// app.listen(PORT, function() {
-//     console.log(`Listening on : http://localhost:${PORT}`);
-// })
+
+app.listen(PORT, function() {
+    console.log(`Listening on : http://localhost:${PORT}`);
+})
 
 

@@ -1228,6 +1228,6 @@ module.exports = function(sequelize, DataTypes) {
     //     onDelete: "cascade"
     //   });
     // };
-  
+
     return dbo_UB04;
   };
