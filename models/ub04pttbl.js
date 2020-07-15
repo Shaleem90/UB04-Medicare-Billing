@@ -76,13 +76,13 @@ module.exports = function(sequelize, DataTypes) {
             allowNull: false
         },
 
-
+// MAY BE A DUPLICTE.
         FL4: { 
             type: DataTypes.STRING(4),
             allowNull: false
             
         },
-
+// MAY BE DUPLICATE ABOVE.
 
         FL5: { 
             type: DataTypes.STRING(20),
@@ -184,13 +184,13 @@ module.exports = function(sequelize, DataTypes) {
             allowNull: true
         },
 
-
+// MAY BE A DUPLICATE
         FL18: { 
             type: DataTypes.STRING(2),
             allowNull: true
             
         },
-
+// DUPLICATE END
         FL19: { 
             type: DataTypes.STRING(2),
             allowNull: true
