@@ -15,6 +15,7 @@ app.set("view engine", "handlebars");
 app.use(express.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, "public")));
 
+
 require("./routes")(app);
 
 module.exports = app;

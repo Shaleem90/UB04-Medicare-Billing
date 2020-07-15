@@ -17,13 +17,13 @@
 		<div id="pg3Overlay"
 			style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;">
 		</div>
-		<div id="pg3" style="-webkit-user-select: none;"><object width="935" height="1210" data="assets/background/ub04.svg"
+		<div id="pg3" style="-webkit-user-select: none;"><object width="935" height="1210" data="../assets/background/ub04.svg"
 				type="image/svg+xml" id="pdf3"
 				style="width:935px; height:1210px; -moz-transform:scale(1); z-index: 0;"></object></div>
 		<!-- End page background -->
         <!-- Form title Inpatient / outpatient -->
 
-		<div id="tcw_3" class="t sk_3">{{object.dataValues.title}}</div>
+		<div id="tcw_3" class="t sk_3">{{response.dataValues.title}}</div>
 		<!-- Box1 hospital addres -->
 		<div id="t4_3" class="t s4_3">1</div>
 
@@ -271,7 +271,7 @@
 		<div id="through_36b" class="t sh_3"><input type="text" id="box_36b_through" class="width60 greyBckg" name="box_36b_through" placeholder="{{object.dataValues.FL36_b2}}"></div>
 
 		<!-- Box 37b data -->
-		<div id="box_37b" class="t sh_3"><input type="text" id="box_37b" class="width70 greyBckg" name="box_37b" placeholder="{{}}"></div>
+		<div id="box_37b" class="t sh_3"><input type="text" id="box_37b" class="width70 greyBckg" name="box_37b" placeholder=""></div>
 
 		<!-- box 38 Hospital addres -->
 		<div id="t5r_3" class="t s4_3">38</div>
@@ -365,412 +365,412 @@
 		<div id="t6d_3" class="t sb_3">49</div>
 		
 		<!-- Box 42_1 -->
-		<div id="taq_3" class="t sg_3"><input type="text" id="box_42_1" class="width35 redFont" name="box_42_1" placeholder="{{}}"></div>
+		<div id="taq_3" class="t sg_3"><input type="text" id="box_42_1" class="width35 redFont" name="box_42_1" placeholder="{{object.0.code1}}"></div>
 		<!-- Box 43_1 -->
-		<div id="tar_3" class="t sg_3"><input type="text" id="box_43_1" class="redFont" name="box_43_1" placeholder="{{}}"></div>
+		<div id="tar_3" class="t sg_3"><input type="text" id="box_43_1" class="redFont" name="box_43_1" placeholder="{{object.1.serv1}}"></div>
 		<!-- Box 44_1 -->
-		<div id="taw_3" class="t sg_3"><input type="text" id="box_44_1" class="width130 redFont" name="box_44_1" placeholder="{{}}"></div>
+		<div id="taw_3" class="t sg_3"><input type="text" id="box_44_1" class="width130 redFont" name="box_44_1" placeholder="{{object.2.rate1}}"></div>
 		<!-- box 45_1 -->
-		<div id="box45_1" class="t sb_3"><input type="text" id="box_45_1" class="width60" name="box_45_1" placeholder="{{}}"></div>
+		<div id="box45_1" class="t sb_3"><input type="text" id="box_45_1" class="width60" name="box_45_1" placeholder="{{object.3.date1}}"></div>
 		<!-- Box 46_1 -->
-		<div id="tax_3" class="t sg_3"><input type="text" id="box_46_1" class="width70 redFont" name="box_46_1" placeholder="{{}}"></div>
+		<div id="tax_3" class="t sg_3"><input type="text" id="box_46_1" class="width70 redFont" name="box_46_1" placeholder="{{object.4.unit1}}"></div>
 		<!-- Box 47_1 -->
-		<div id="tay_3" class="t sg_3"><input type="text" id="box_47_1" class="width85 redFont" name="box_47_1" placeholder="{{}}"></div>
+		<div id="tay_3" class="t sg_3"><input type="text" id="box_47_1" class="width85 redFont" name="box_47_1" placeholder="{{object.5.charge1}}"></div>
 		<!-- Box 48_1 -->
-		<div id="tb3_3" class="t sh_3"><input type="text" id="box_48_1" class="width85 redFont" name="box_48_1" placeholder="{{}}"></div>
+		<div id="tb3_3" class="t sh_3"><input type="text" id="box_48_1" class="width85 redFont" name="box_48_1" placeholder="{{object.6.non-cov1}}"></div>
 		<!-- Box 49_1 -->
-		<div id="tb1_3" class="t sh_3"><input type="text" id="box_49_1" class="width18" name="box_49_1" placeholder="{{}}"></div>
+		<div id="tb1_3" class="t sh_3"><input type="text" id="box_49_1" class="width18" name="box_49_1" placeholder="{{object.7.nubc}}"></div>
 
 		<!-- Box 42_2 -->
-		<div id="tas_3" class="t sg_3"><input type="text" id="box_42_2" class="width35 redFont greyBckg" name="box_42_2" placeholder="{{}}"></div>
+		<div id="tas_3" class="t sg_3"><input type="text" id="box_42_2" class="width35 redFont greyBckg" name="box_42_2" placeholder="{{object.0.code2}}"></div>
 		<!-- Box 43_2 -->
-		<div id="tat_3" class="t sg_3"><input type="text" id="box_43_2" class="redFont greyBckg" name="box_43_2" placeholder="{{}}"></div>
+		<div id="tat_3" class="t sg_3"><input type="text" id="box_43_2" class="redFont greyBckg" name="box_43_2" placeholder=""></div>
 		<!-- Box 44_2 -->
-		<div id="box44_2" class="t sg_3"><input type="text" id="box_44_2" class="width130 redFont greyBckg" name="box_44_2" placeholder="{{}}"></div>
+		<div id="box44_2" class="t sg_3"><input type="text" id="box_44_2" class="width130 redFont greyBckg" name="box_44_2" placeholder=""></div>
 		<!-- box 45_2 -->
-		<div id="box45_2" class="t sb_3"><input type="text" id="box_45_2" class="width60 greyBckg" name="box_45_2" placeholder="{{}}"></div>
+		<div id="box45_2" class="t sb_3"><input type="text" id="box_45_2" class="width60 greyBckg" name="box_45_2" placeholder=""></div>
 		<!-- box 46_2 -->
-		<div id="tcv_3" class="t sg_3"><input type="text" id="box_46_2" class="width70 redFont greyBckg" name="box_46_2" placeholder="{{}}"></div>
+		<div id="tcv_3" class="t sg_3"><input type="text" id="box_46_2" class="width70 redFont greyBckg" name="box_46_2" placeholder=""></div>
 		<!-- Box 47_2 -->
-		<div id="taz_3" class="t sg_3"><input type="text" id="box_47_2" class="width85 redFont greyBckg" name="box_47_2" placeholder="{{}}"></div>
+		<div id="taz_3" class="t sg_3"><input type="text" id="box_47_2" class="width85 redFont greyBckg" name="box_47_2" placeholder=""></div>
 		<!-- Box 48_2 -->
-		<div id="tb4_3" class="t sh_3"><input type="text" id="box_48_2" class="width85 redFont greyBckg" name="box_48_2" placeholder="{{}}"></div>
+		<div id="tb4_3" class="t sh_3"><input type="text" id="box_48_2" class="width85 redFont greyBckg" name="box_48_2" placeholder=""></div>
 		<!-- Box 49_2 -->
-		<div id="tb2_3" class="t sh_3"><input type="text" id="box_49_2" class="width18 greyBckg" name="box_49_2" placeholder="{{}}"></div>
+		<div id="tb2_3" class="t sh_3"><input type="text" id="box_49_2" class="width18 greyBckg" name="box_49_2" placeholder=""></div>
 
 		<!-- Box 42_3-->
-		<div id="tau_3" class="t sg_3"><input type="text" id="box_42_3" class="width35 redFont" name="box_42_3" placeholder="{{}}"></div>
+		<div id="tau_3" class="t sg_3"><input type="text" id="box_42_3" class="width35 redFont" name="box_42_3" placeholder="{{object.0.code3}}"></div>
 		<!-- Box 43_3 -->
-		<div id="tav_3" class="t sg_3"><input type="text" id="box_43_3" class="redFont" name="box_43_3" placeholder="{{}}"></div>
+		<div id="tav_3" class="t sg_3"><input type="text" id="box_43_3" class="redFont" name="box_43_3" placeholder=""></div>
 		<!-- Box 44_3 -->
-		<div id="box44_3" class="t sg_3"><input type="text" id="box_44_3" class="width130 redFont" name="box_44_3" placeholder="{{}}"></div>
+		<div id="box44_3" class="t sg_3"><input type="text" id="box_44_3" class="width130 redFont" name="box_44_3" placeholder=""></div>
 		<!-- box 45_3 -->
-		<div id="box45_3" class="t sb_3"><input type="text" id="box_45_3" class="width60" name="box_45_3" placeholder="{{}}"></div>
+		<div id="box45_3" class="t sb_3"><input type="text" id="box_45_3" class="width60" name="box_45_3" placeholder=""></div>
 		<!-- box 46_3 -->
 		<div id="box46_3" class="t 
-		sg_3"><input type="text" id="box_46_3" class="width70 redFont" name="box_46_3" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_3" class="width70 redFont" name="box_46_3" placeholder=""></div>
 		<!-- Box 47_3 -->
-		<div id="tb0_3" class="t sg_3"><input type="text" id="box_47_3" class="width85 redFont" name="box_47_3" placeholder="{{}}"></div>
+		<div id="tb0_3" class="t sg_3"><input type="text" id="box_47_3" class="width85 redFont" name="box_47_3" placeholder=""></div>
 		<!-- Box 48_3 -->
-		<div id="tb5_3" class="t sh_3"><input type="text" id="box_48_3" class="width85 redFont" name="box_48_3" placeholder="{{}}"></div>
+		<div id="tb5_3" class="t sh_3"><input type="text" id="box_48_3" class="width85 redFont" name="box_48_3" placeholder=""></div>
 		<!-- Box 49_3 -->
-		<div id="box49_3" class="t sh_3"><input type="text" id="box_49_3" class="width18" name="box_49_3" placeholder="{{}}"></div>
+		<div id="box49_3" class="t sh_3"><input type="text" id="box_49_3" class="width18" name="box_49_3" placeholder=""></div>
 
 		<!-- Box 42_4-->
-		<div id="box42_4" class="t sg_3"><input type="text" id="box_42_4" class="width35 redFont greyBckg" name="box_42_4" placeholder="{{}}"></div>
+		<div id="box42_4" class="t sg_3"><input type="text" id="box_42_4" class="width35 redFont greyBckg" name="box_42_4" placeholder="{{object.0.code4}}"></div>
 		<!-- Box 43_4 -->
-		<div id="box43_4" class="t sg_3"><input type="text" id="box_43_4" class="redFont greyBckg" name="box_43_4" placeholder="{{}}"></div>
+		<div id="box43_4" class="t sg_3"><input type="text" id="box_43_4" class="redFont greyBckg" name="box_43_4" placeholder=""></div>
 		<!-- Box 44_4 -->
-		<div id="box44_4" class="t sg_3"><input type="text" id="box_44_4" class="width130 redFont greyBckg" name="box_44_4" placeholder="{{}}"></div>
+		<div id="box44_4" class="t sg_3"><input type="text" id="box_44_4" class="width130 redFont greyBckg" name="box_44_4" placeholder=""></div>
 		<!-- box 45_4 -->
-		<div id="box45_4" class="t sb_3"><input type="text" id="box_45_4" class="width60 greyBckg" name="box_45_4" placeholder="{{}}"></div>
+		<div id="box45_4" class="t sb_3"><input type="text" id="box_45_4" class="width60 greyBckg" name="box_45_4" placeholder=""></div>
 		<!-- box 46_4 -->
 		<div id="box46_4" class="t 
-		sg_3"><input type="text" id="box_46_4" class="width70 redFont greyBckg" name="box_46_4" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_4" class="width70 redFont greyBckg" name="box_46_4" placeholder=""></div>
 		<!-- Box 47_4 -->
-		<div id="box47_4" class="t sg_3"><input type="text" id="box_47_4" class="width85 redFont greyBckg" name="box_47_4" placeholder="{{}}"></div>
+		<div id="box47_4" class="t sg_3"><input type="text" id="box_47_4" class="width85 redFont greyBckg" name="box_47_4" placeholder=""></div>
 		<!-- Box 48_4 -->
-		<div id="box48_4" class="t sh_3"><input type="text" id="box_48_4" class="width85 redFont greyBckg" name="box_48_4" placeholder="{{}}"></div>
+		<div id="box48_4" class="t sh_3"><input type="text" id="box_48_4" class="width85 redFont greyBckg" name="box_48_4" placeholder=""></div>
 		<!-- Box 49_4 -->
-		<div id="box49_4" class="t sh_3"><input type="text" id="box_49_4" class="width18 greyBckg" name="box_49_4" placeholder="{{}}"></div>
+		<div id="box49_4" class="t sh_3"><input type="text" id="box_49_4" class="width18 greyBckg" name="box_49_4" placeholder=""></div>
 
 		<!-- Box 42_5-->
-		<div id="box42_5" class="t sg_3"><input type="text" id="box_42_5" class="width35 redFont" name="box_42_5" placeholder="{{}}"></div>
+		<div id="box42_5" class="t sg_3"><input type="text" id="box_42_5" class="width35 redFont" name="box_42_5" placeholder=""></div>
 		<!-- Box 43_5 -->
-		<div id="box43_5" class="t sg_3"><input type="text" id="box_43_5" class="redFont" name="box_43_5" placeholder="{{}}"></div>
+		<div id="box43_5" class="t sg_3"><input type="text" id="box_43_5" class="redFont" name="box_43_5" placeholder=""></div>
 		<!-- Box 44_5 -->
-		<div id="box44_5" class="t sg_3"><input type="text" id="box_44_5" class="width130 redFont" name="box_44_5" placeholder="{{}}"></div>
+		<div id="box44_5" class="t sg_3"><input type="text" id="box_44_5" class="width130 redFont" name="box_44_5" placeholder=""></div>
 		<!-- box 45_5 -->
-		<div id="box45_5" class="t sb_3"><input type="text" id="box_45_5" class="width60" name="box_45_5" placeholder="{{}}"></div>
+		<div id="box45_5" class="t sb_3"><input type="text" id="box_45_5" class="width60" name="box_45_5" placeholder=""></div>
 		<!-- box 46_5 -->
 		<div id="box46_5" class="t 
-		sg_3"><input type="text" id="box_46_5" class="width70 redFont" name="box_46_5" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_5" class="width70 redFont" name="box_46_5" placeholder=""></div>
 		<!-- Box 47_5 -->
-		<div id="box47_5" class="t sg_3"><input type="text" id="box_47_5" class="width85 redFont" name="box_47_5" placeholder="{{}}"></div>
+		<div id="box47_5" class="t sg_3"><input type="text" id="box_47_5" class="width85 redFont" name="box_47_5" placeholder=""></div>
 		<!-- Box 48_5 -->
-		<div id="box48_5" class="t sh_3"><input type="text" id="box_48_5" class="width85 redFont" name="box_48_5" placeholder="{{}}"></div>
+		<div id="box48_5" class="t sh_3"><input type="text" id="box_48_5" class="width85 redFont" name="box_48_5" placeholder=""></div>
 		<!-- Box 49_5 -->
-		<div id="box49_5" class="t sh_3"><input type="text" id="box_49_5" class="width18" name="box_49_5" placeholder="{{}}"></div>
+		<div id="box49_5" class="t sh_3"><input type="text" id="box_49_5" class="width18" name="box_49_5" placeholder=""></div>
 		<!-- Box 42_6-->
-		<div id="box42_6" class="t sg_3"><input type="text" id="box_42_6" class="width35 redFont greyBckg" name="box_42_6" placeholder="{{}}"></div>
+		<div id="box42_6" class="t sg_3"><input type="text" id="box_42_6" class="width35 redFont greyBckg" name="box_42_6" placeholder=""></div>
 		<!-- Box 43_6 -->
-		<div id="box43_6" class="t sg_3"><input type="text" id="box_43_6" class="redFont greyBckg" name="box_43_6" placeholder="{{}}"></div>
+		<div id="box43_6" class="t sg_3"><input type="text" id="box_43_6" class="redFont greyBckg" name="box_43_6" placeholder=""></div>
 		<!-- Box 44_6 -->
-		<div id="box44_6" class="t sg_3"><input type="text" id="box_44_6" class="width130 redFont greyBckg" name="box_44_6" placeholder="{{}}"></div>
+		<div id="box44_6" class="t sg_3"><input type="text" id="box_44_6" class="width130 redFont greyBckg" name="box_44_6" placeholder=""></div>
 		<!-- box 45_6 -->
-		<div id="box45_6" class="t sb_3"><input type="text" id="box_45_6" class="width60 greyBckg" name="box_45_6" placeholder="{{}}"></div>
+		<div id="box45_6" class="t sb_3"><input type="text" id="box_45_6" class="width60 greyBckg" name="box_45_6" placeholder=""></div>
 		<!-- box 46_6 -->
 		<div id="box46_6" class="t 
-		sg_3"><input type="text" id="box_46_6" class="width70 redFont greyBckg" name="box_46_6" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_6" class="width70 redFont greyBckg" name="box_46_6" placeholder=""></div>
 		<!-- Box 47_6 -->
-		<div id="box47_6" class="t sg_3"><input type="text" id="box_47_6" class="width85 redFont greyBckg" name="box_47_6" placeholder="{{}}"></div>
+		<div id="box47_6" class="t sg_3"><input type="text" id="box_47_6" class="width85 redFont greyBckg" name="box_47_6" placeholder=""></div>
 		<!-- Box 48_6 -->
-		<div id="box48_6" class="t sh_3"><input type="text" id="box_48_6" class="width85 redFont greyBckg" name="box_48_6" placeholder="{{}}"></div>
+		<div id="box48_6" class="t sh_3"><input type="text" id="box_48_6" class="width85 redFont greyBckg" name="box_48_6" placeholder=""></div>
 		<!-- Box 49_6 -->
-		<div id="box49_6" class="t sh_3"><input type="text" id="box_49_6" class="width18 greyBckg" name="box_49_6" placeholder="{{}}"></div>
+		<div id="box49_6" class="t sh_3"><input type="text" id="box_49_6" class="width18 greyBckg" name="box_49_6" placeholder=""></div>
 
 		<!-- Box 42_7-->
-		<div id="box42_7" class="t sg_3"><input type="text" id="box_42_7" class="width35 redFont" name="box_42_7" placeholder="{{}}"></div>
+		<div id="box42_7" class="t sg_3"><input type="text" id="box_42_7" class="width35 redFont" name="box_42_7" placeholder=""></div>
 		<!-- Box 43_7 -->
-		<div id="box43_7" class="t sg_3"><input type="text" id="box_43_7" class="redFont" name="box_43_7" placeholder="{{}}"></div>
+		<div id="box43_7" class="t sg_3"><input type="text" id="box_43_7" class="redFont" name="box_43_7" placeholder=""></div>
 		<!-- Box 44_7 -->
-		<div id="box44_7" class="t sg_3"><input type="text" id="box_44_7" class="width130 redFont" name="box_44_7" placeholder="{{}}"></div>
+		<div id="box44_7" class="t sg_3"><input type="text" id="box_44_7" class="width130 redFont" name="box_44_7" placeholder=""></div>
 		<!-- box 45_7 -->
-		<div id="box45_7" class="t sb_3"><input type="text" id="box_45_7" class="width60" name="box_45_7" placeholder="{{}}"></div>
+		<div id="box45_7" class="t sb_3"><input type="text" id="box_45_7" class="width60" name="box_45_7" placeholder=""></div>
 		<!-- box 46_7 -->
 		<div id="box46_7" class="t 
-		sg_3"><input type="text" id="box_46_7" class="width70 redFont" name="box_46_7" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_7" class="width70 redFont" name="box_46_7" placeholder=""></div>
 		<!-- Box 47_7 -->
-		<div id="box47_7" class="t sg_3"><input type="text" id="box_47_7" class="width85 redFont" name="box_47_7" placeholder="{{}}"></div>
+		<div id="box47_7" class="t sg_3"><input type="text" id="box_47_7" class="width85 redFont" name="box_47_7" placeholder=""></div>
 		<!-- Box 48_7 -->
-		<div id="box48_7" class="t sh_3"><input type="text" id="box_48_7" class="width85 redFont" name="box_48_7" placeholder="{{}}"></div>
+		<div id="box48_7" class="t sh_3"><input type="text" id="box_48_7" class="width85 redFont" name="box_48_7" placeholder=""></div>
 		<!-- Box 49_7 -->
-		<div id="box49_7" class="t sh_3"><input type="text" id="box_49_7" class="width18" name="box_49_7" placeholder="{{}}"></div>
+		<div id="box49_7" class="t sh_3"><input type="text" id="box_49_7" class="width18" name="box_49_7" placeholder=""></div>
 
 		<!-- Box 42_8-->
-		<div id="box42_8" class="t sg_3"><input type="text" id="box_42_8" class="width35 redFont greyBckg" name="box_42_8" placeholder="{{}}"></div>
+		<div id="box42_8" class="t sg_3"><input type="text" id="box_42_8" class="width35 redFont greyBckg" name="box_42_8" placeholder=""></div>
 		<!-- Box 43_8 -->
-		<div id="box43_8" class="t sg_3"><input type="text" id="box_43_8" class="redFont greyBckg" name="box_43_8" placeholder="{{}}"></div>
+		<div id="box43_8" class="t sg_3"><input type="text" id="box_43_8" class="redFont greyBckg" name="box_43_8" placeholder=""></div>
 		<!-- Box 44_8 -->
-		<div id="box44_8" class="t sg_3"><input type="text" id="box_44_8" class="width130 redFont greyBckg" name="box_44_8" placeholder="{{}}"></div>
+		<div id="box44_8" class="t sg_3"><input type="text" id="box_44_8" class="width130 redFont greyBckg" name="box_44_8" placeholder=""></div>
 		<!-- box 45_8 -->
-		<div id="box45_8" class="t sb_3"><input type="text" id="box_45_8" class="width60 greyBckg" name="box_45_8" placeholder="{{}}"></div>
+		<div id="box45_8" class="t sb_3"><input type="text" id="box_45_8" class="width60 greyBckg" name="box_45_8" placeholder=""></div>
 		<!-- box 46_8 -->
 		<div id="box46_8" class="t 
-		sg_3"><input type="text" id="box_46_8" class="width70 redFont greyBckg" name="box_46_8" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_8" class="width70 redFont greyBckg" name="box_46_8" placeholder=""></div>
 		<!-- Box 47_8 -->
-		<div id="box47_8" class="t sg_3"><input type="text" id="box_47_8" class="width85 redFont greyBckg" name="box_47_8" placeholder="{{}}"></div>
+		<div id="box47_8" class="t sg_3"><input type="text" id="box_47_8" class="width85 redFont greyBckg" name="box_47_8" placeholder=""></div>
 		<!-- Box 48_8 -->
-		<div id="box48_8" class="t sh_3"><input type="text" id="box_48_8" class="width85 redFont greyBckg" name="box_48_8" placeholder="{{}}"></div>
+		<div id="box48_8" class="t sh_3"><input type="text" id="box_48_8" class="width85 redFont greyBckg" name="box_48_8" placeholder=""></div>
 		<!-- Box 49_8 -->
-		<div id="box49_8" class="t sh_3"><input type="text" id="box_49_8" class="width18 greyBckg" name="box_49_8" placeholder="{{}}"></div>
+		<div id="box49_8" class="t sh_3"><input type="text" id="box_49_8" class="width18 greyBckg" name="box_49_8" placeholder=""></div>
 
 		<!-- Box 42_9-->
-		<div id="box42_9" class="t sg_3"><input type="text" id="box_42_9" class="width35 redFont" name="box_42_9" placeholder="{{}}"></div>
+		<div id="box42_9" class="t sg_3"><input type="text" id="box_42_9" class="width35 redFont" name="box_42_9" placeholder=""></div>
 		<!-- Box 43_9 -->
-		<div id="box43_9" class="t sg_3"><input type="text" id="box_43_9" class="redFont" name="box_43_9" placeholder="{{}}"></div>
+		<div id="box43_9" class="t sg_3"><input type="text" id="box_43_9" class="redFont" name="box_43_9" placeholder=""></div>
 		<!-- Box 44_9 -->
-		<div id="box44_9" class="t sg_3"><input type="text" id="box_44_9" class="width130 redFont" name="box_44_9" placeholder="{{}}"></div>
+		<div id="box44_9" class="t sg_3"><input type="text" id="box_44_9" class="width130 redFont" name="box_44_9" placeholder=""></div>
 		<!-- box 45_9 -->
-		<div id="box45_9" class="t sb_3"><input type="text" id="box_45_9" class="width60" name="box_45_9" placeholder="{{}}"></div>
+		<div id="box45_9" class="t sb_3"><input type="text" id="box_45_9" class="width60" name="box_45_9" placeholder=""></div>
 		<!-- box 46_9 -->
 		<div id="box46_9" class="t 
-		sg_3"><input type="text" id="box_46_9" class="width70 redFont" name="box_46_9" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_9" class="width70 redFont" name="box_46_9" placeholder=""></div>
 		<!-- Box 47_9 -->
-		<div id="box47_9" class="t sg_3"><input type="text" id="box_47_9" class="width85 redFont" name="box_47_9" placeholder="{{}}"></div>
+		<div id="box47_9" class="t sg_3"><input type="text" id="box_47_9" class="width85 redFont" name="box_47_9" placeholder=""></div>
 		<!-- Box 48_9 -->
-		<div id="box48_9" class="t sh_3"><input type="text" id="box_48_9" class="width85 redFont" name="box_48_9" placeholder="{{}}"></div>
+		<div id="box48_9" class="t sh_3"><input type="text" id="box_48_9" class="width85 redFont" name="box_48_9" placeholder=""></div>
 		<!-- Box 49_9 -->
-		<div id="box49_9" class="t sh_3"><input type="text" id="box_49_9" class="width18" name="box_49_9" placeholder="{{}}"></div>
+		<div id="box49_9" class="t sh_3"><input type="text" id="box_49_9" class="width18" name="box_49_9" placeholder=""></div>
 
 		<!-- Box 42_10-->
-		<div id="box42_10" class="t sg_3"><input type="text" id="box_42_10" class="width35 redFont greyBckg" name="box_42_10" placeholder="{{}}"></div>
+		<div id="box42_10" class="t sg_3"><input type="text" id="box_42_10" class="width35 redFont greyBckg" name="box_42_10" placeholder=""></div>
 		<!-- Box 43_10 -->
-		<div id="box43_10" class="t sg_3"><input type="text" id="box_43_10" class="redFont greyBckg" name="box_43_10" placeholder="{{}}"></div>
+		<div id="box43_10" class="t sg_3"><input type="text" id="box_43_10" class="redFont greyBckg" name="box_43_10" placeholder=""></div>
 		<!-- Box 44_10 -->
-		<div id="box44_10" class="t sg_3"><input type="text" id="box_44_10" class="width130 redFont greyBckg" name="box_44_10" placeholder="{{}}"></div>
+		<div id="box44_10" class="t sg_3"><input type="text" id="box_44_10" class="width130 redFont greyBckg" name="box_44_10" placeholder=""></div>
 		<!-- box 45_10 -->
-		<div id="box45_10" class="t sb_3"><input type="text" id="box_45_10" class="width60 greyBckg" name="box_45_10" placeholder="{{}}"></div>
+		<div id="box45_10" class="t sb_3"><input type="text" id="box_45_10" class="width60 greyBckg" name="box_45_10" placeholder=""></div>
 		<!-- box 46_10 -->
 		<div id="box46_10" class="t 
-		sg_3"><input type="text" id="box_46_10" class="width70 redFont greyBckg" name="box_46_10" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_10" class="width70 redFont greyBckg" name="box_46_10" placeholder=""></div>
 		<!-- Box 47_10 -->
-		<div id="box47_10" class="t sg_3"><input type="text" id="box_47_10" class="width85 redFont greyBckg" name="box_47_10" placeholder="{{}}"></div>
+		<div id="box47_10" class="t sg_3"><input type="text" id="box_47_10" class="width85 redFont greyBckg" name="box_47_10" placeholder=""></div>
 		<!-- Box 48_10 -->
-		<div id="box48_10" class="t sh_3"><input type="text" id="box_48_10" class="width85 redFont greyBckg" name="box_48_10" placeholder="{{}}"></div>
+		<div id="box48_10" class="t sh_3"><input type="text" id="box_48_10" class="width85 redFont greyBckg" name="box_48_10" placeholder=""></div>
 		<!-- Box 49_10 -->
-		<div id="box49_10" class="t sh_3"><input type="text" id="box_49_10" class="width18 greyBckg" name="box_49_10" placeholder="{{}}"></div>
+		<div id="box49_10" class="t sh_3"><input type="text" id="box_49_10" class="width18 greyBckg" name="box_49_10" placeholder=""></div>
 
 		<!-- Box 42_11-->
-		<div id="box42_11" class="t sg_3"><input type="text" id="box_42_11" class="width35 redFont" name="box_42_11" placeholder="{{}}"></div>
+		<div id="box42_11" class="t sg_3"><input type="text" id="box_42_11" class="width35 redFont" name="box_42_11" placeholder=""></div>
 		<!-- Box 43_11 -->
-		<div id="box43_11" class="t sg_3"><input type="text" id="box_43_11" class="redFont" name="box_43_11" placeholder="{{}}"></div>
+		<div id="box43_11" class="t sg_3"><input type="text" id="box_43_11" class="redFont" name="box_43_11" placeholder=""></div>
 		<!-- Box 44_11 -->
-		<div id="box44_11" class="t sg_3"><input type="text" id="box_44_11" class="width130 redFont" name="box_44_11" placeholder="{{}}"></div>
+		<div id="box44_11" class="t sg_3"><input type="text" id="box_44_11" class="width130 redFont" name="box_44_11" placeholder=""></div>
 		<!-- box 45_11 -->
-		<div id="box45_11" class="t sb_3"><input type="text" id="box_45_11" class="width60" name="box_45_11" placeholder="{{}}"></div>
+		<div id="box45_11" class="t sb_3"><input type="text" id="box_45_11" class="width60" name="box_45_11" placeholder=""></div>
 		<!-- box 46_11 -->
 		<div id="box46_11" class="t 
-		sg_3"><input type="text" id="box_46_11" class="width70 redFont" name="box_46_11" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_11" class="width70 redFont" name="box_46_11" placeholder=""></div>
 		<!-- Box 47_11 -->
-		<div id="box47_11" class="t sg_3"><input type="text" id="box_47_11" class="width85 redFont" name="box_47_11" placeholder="{{}}"></div>
+		<div id="box47_11" class="t sg_3"><input type="text" id="box_47_11" class="width85 redFont" name="box_47_11" placeholder=""></div>
 		<!-- Box 48_11 -->
-		<div id="box48_11" class="t sh_3"><input type="text" id="box_48_11" class="width85 redFont" name="box_48_11" placeholder="{{}}"></div>
+		<div id="box48_11" class="t sh_3"><input type="text" id="box_48_11" class="width85 redFont" name="box_48_11" placeholder=""></div>
 		<!-- Box 49_11 -->
-		<div id="box49_11" class="t sh_3"><input type="text" id="box_49_11" class="width18" name="box_49_11" placeholder="{{}}"></div>
+		<div id="box49_11" class="t sh_3"><input type="text" id="box_49_11" class="width18" name="box_49_11" placeholder=""></div>
 
 		<!-- Box 42_12-->
-		<div id="box42_12" class="t sg_3"><input type="text" id="box_42_12" class="width35 redFont greyBckg" name="box_42_12" placeholder="{{}}"></div>
+		<div id="box42_12" class="t sg_3"><input type="text" id="box_42_12" class="width35 redFont greyBckg" name="box_42_12" placeholder=""></div>
 		<!-- Box 43_12 -->
-		<div id="box43_12" class="t sg_3"><input type="text" id="box_43_12" class="redFont greyBckg" name="box_43_12" placeholder="{{}}"></div>
+		<div id="box43_12" class="t sg_3"><input type="text" id="box_43_12" class="redFont greyBckg" name="box_43_12" placeholder=""></div>
 		<!-- Box 44_12 -->
-		<div id="box44_12" class="t sg_3"><input type="text" id="box_44_12" class="width130 redFont greyBckg" name="box_44_12" placeholder="{{}}"></div>
+		<div id="box44_12" class="t sg_3"><input type="text" id="box_44_12" class="width130 redFont greyBckg" name="box_44_12" placeholder=""></div>
 		<!-- box 45_12 -->
-		<div id="box45_12" class="t sb_3"><input type="text" id="box_45_12" class="width60 greyBckg" name="box_45_12" placeholder="{{}}"></div>
+		<div id="box45_12" class="t sb_3"><input type="text" id="box_45_12" class="width60 greyBckg" name="box_45_12" placeholder=""></div>
 		<!-- box 46_12 -->
 		<div id="box46_12" class="t 
-		sg_3"><input type="text" id="box_46_12" class="width70 redFont greyBckg" name="box_46_12" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_12" class="width70 redFont greyBckg" name="box_46_12" placeholder=""></div>
 		<!-- Box 47_12 -->
-		<div id="box47_12" class="t sg_3"><input type="text" id="box_47_12" class="width85 redFont greyBckg" name="box_47_12" placeholder="{{}}"></div>
+		<div id="box47_12" class="t sg_3"><input type="text" id="box_47_12" class="width85 redFont greyBckg" name="box_47_12" placeholder=""></div>
 		<!-- Box 48_12 -->
-		<div id="box48_12" class="t sh_3"><input type="text" id="box_48_12" class="width85 redFont greyBckg" name="box_48_12" placeholder="{{}}"></div>
+		<div id="box48_12" class="t sh_3"><input type="text" id="box_48_12" class="width85 redFont greyBckg" name="box_48_12" placeholder=""></div>
 		<!-- Box 49_12 -->
-		<div id="box49_12" class="t sh_3"><input type="text" id="box_49_12" class="width18 greyBckg" name="box_49_12" placeholder="{{}}"></div>
+		<div id="box49_12" class="t sh_3"><input type="text" id="box_49_12" class="width18 greyBckg" name="box_49_12" placeholder=""></div>
 
 		<!-- Box 42_13-->
-		<div id="box42_13" class="t sg_3"><input type="text" id="box_42_13" class="width35 redFont" name="box_42_13" placeholder="{{}}"></div>
+		<div id="box42_13" class="t sg_3"><input type="text" id="box_42_13" class="width35 redFont" name="box_42_13" placeholder=""></div>
 		<!-- Box 43_13 -->
-		<div id="box43_13" class="t sg_3"><input type="text" id="box_43_13" class="redFont" name="box_43_13" placeholder="{{}}"></div>
+		<div id="box43_13" class="t sg_3"><input type="text" id="box_43_13" class="redFont" name="box_43_13" placeholder=""></div>
 		<!-- Box 44_13 -->
-		<div id="box44_13" class="t sg_3"><input type="text" id="box_44_13" class="width130 redFont" name="box_44_13" placeholder="{{}}"></div>
+		<div id="box44_13" class="t sg_3"><input type="text" id="box_44_13" class="width130 redFont" name="box_44_13" placeholder=""></div>
 		<!-- box 45_13 -->
-		<div id="box45_13" class="t sb_3"><input type="text" id="box_45_13" class="width60" name="box_45_13" placeholder="{{}}"></div>
+		<div id="box45_13" class="t sb_3"><input type="text" id="box_45_13" class="width60" name="box_45_13" placeholder=""></div>
 		<!-- box 46_13 -->
 		<div id="box46_13" class="t 
-		sg_3"><input type="text" id="box_46_13" class="width70 redFont" name="box_46_13" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_13" class="width70 redFont" name="box_46_13" placeholder=""></div>
 		<!-- Box 47_13 -->
-		<div id="box47_13" class="t sg_3"><input type="text" id="box_47_13" class="width85 redFont" name="box_47_13" placeholder="{{}}"></div>
+		<div id="box47_13" class="t sg_3"><input type="text" id="box_47_13" class="width85 redFont" name="box_47_13" placeholder=""></div>
 		<!-- Box 48_13 -->
-		<div id="box48_13" class="t sh_3"><input type="text" id="box_48_13" class="width85 redFont" name="box_48_13" placeholder="{{}}"></div>
+		<div id="box48_13" class="t sh_3"><input type="text" id="box_48_13" class="width85 redFont" name="box_48_13" placeholder=""></div>
 		<!-- Box 49_13 -->
-		<div id="box49_13" class="t sh_3"><input type="text" id="box_49_13" class="width18" name="box_49_13" placeholder="{{}}"></div>
+		<div id="box49_13" class="t sh_3"><input type="text" id="box_49_13" class="width18" name="box_49_13" placeholder=""></div>
 
 		<!-- Box 42_14-->
-		<div id="box42_14" class="t sg_3"><input type="text" id="box_42_14" class="width35 redFont greyBckg" name="box_42_14" placeholder="{{}}"></div>
+		<div id="box42_14" class="t sg_3"><input type="text" id="box_42_14" class="width35 redFont greyBckg" name="box_42_14" placeholder=""></div>
 		<!-- Box 43_14 -->
-		<div id="box43_14" class="t sg_3"><input type="text" id="box_43_14" class="redFont greyBckg" name="box_43_14" placeholder="{{}}"></div>
+		<div id="box43_14" class="t sg_3"><input type="text" id="box_43_14" class="redFont greyBckg" name="box_43_14" placeholder=""></div>
 		<!-- Box 44_14 -->
-		<div id="box44_14" class="t sg_3"><input type="text" id="box_44_14" class="width130 redFont greyBckg" name="box_44_14" placeholder="{{}}"></div>
+		<div id="box44_14" class="t sg_3"><input type="text" id="box_44_14" class="width130 redFont greyBckg" name="box_44_14" placeholder=""></div>
 		<!-- box 45_14 -->
-		<div id="box45_14" class="t sb_3"><input type="text" id="box_45_14" class="width60 greyBckg" name="box_45_14" placeholder="{{}}"></div>
+		<div id="box45_14" class="t sb_3"><input type="text" id="box_45_14" class="width60 greyBckg" name="box_45_14" placeholder=""></div>
 		<!-- box 46_14 -->
 		<div id="box46_14" class="t 
-		sg_3"><input type="text" id="box_46_14" class="width70 redFont greyBckg" name="box_46_14" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_14" class="width70 redFont greyBckg" name="box_46_14" placeholder=""></div>
 		<!-- Box 47_14 -->
-		<div id="box47_14" class="t sg_3"><input type="text" id="box_47_14" class="width85 redFont greyBckg" name="box_47_14" placeholder="{{}}"></div>
+		<div id="box47_14" class="t sg_3"><input type="text" id="box_47_14" class="width85 redFont greyBckg" name="box_47_14" placeholder=""></div>
 		<!-- Box 48_14 -->
-		<div id="box48_14" class="t sh_3"><input type="text" id="box_48_14" class="width85 redFont greyBckg" name="box_48_14" placeholder="{{}}"></div>
+		<div id="box48_14" class="t sh_3"><input type="text" id="box_48_14" class="width85 redFont greyBckg" name="box_48_14" placeholder=""></div>
 		<!-- Box 49_14 -->
-		<div id="box49_14" class="t sh_3"><input type="text" id="box_49_14" class="width18 greyBckg" name="box_49_14" placeholder="{{}}"></div>
+		<div id="box49_14" class="t sh_3"><input type="text" id="box_49_14" class="width18 greyBckg" name="box_49_14" placeholder=""></div>
 
 		<!-- Box 42_15-->
-		<div id="box42_15" class="t sg_3"><input type="text" id="box_42_15" class="width35 redFont" name="box_42_15" placeholder="{{}}"></div>
+		<div id="box42_15" class="t sg_3"><input type="text" id="box_42_15" class="width35 redFont" name="box_42_15" placeholder=""></div>
 		<!-- Box 43_15 -->
-		<div id="box43_15" class="t sg_3"><input type="text" id="box_43_15" class="redFont" name="box_43_15" placeholder="{{}}"></div>
+		<div id="box43_15" class="t sg_3"><input type="text" id="box_43_15" class="redFont" name="box_43_15" placeholder=""></div>
 		<!-- Box 44_15 -->
-		<div id="box44_15" class="t sg_3"><input type="text" id="box_44_15" class="width130 redFont" name="box_44_15" placeholder="{{}}"></div>
+		<div id="box44_15" class="t sg_3"><input type="text" id="box_44_15" class="width130 redFont" name="box_44_15" placeholder=""></div>
 		<!-- box 45_15 -->
-		<div id="box45_15" class="t sb_3"><input type="text" id="box_45_15" class="width60" name="box_45_15" placeholder="{{}}"></div>
+		<div id="box45_15" class="t sb_3"><input type="text" id="box_45_15" class="width60" name="box_45_15" placeholder=""></div>
 		<!-- box 46_15 -->
 		<div id="box46_15" class="t 
-		sg_3"><input type="text" id="box_46_15" class="width70 redFont" name="box_46_15" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_15" class="width70 redFont" name="box_46_15" placeholder=""></div>
 		<!-- Box 47_15 -->
-		<div id="box47_15" class="t sg_3"><input type="text" id="box_47_15" class="width85 redFont" name="box_47_15" placeholder="{{}}"></div>
+		<div id="box47_15" class="t sg_3"><input type="text" id="box_47_15" class="width85 redFont" name="box_47_15" placeholder=""></div>
 		<!-- Box 48_15 -->
-		<div id="box48_15" class="t sh_3"><input type="text" id="box_48_15" class="width85 redFont" name="box_48_15" placeholder="{{}}"></div>
+		<div id="box48_15" class="t sh_3"><input type="text" id="box_48_15" class="width85 redFont" name="box_48_15" placeholder=""></div>
 		<!-- Box 49_15 -->
-		<div id="box49_15" class="t sh_3"><input type="text" id="box_49_15" class="width18" name="box_49_15" placeholder="{{}}"></div>
+		<div id="box49_15" class="t sh_3"><input type="text" id="box_49_15" class="width18" name="box_49_15" placeholder=""></div>
 
 		<!-- Box 42_16-->
-		<div id="box42_16" class="t sg_3"><input type="text" id="box_42_16" class="width35 redFont greyBckg" name="box_42_16" placeholder="{{}}"></div>
+		<div id="box42_16" class="t sg_3"><input type="text" id="box_42_16" class="width35 redFont greyBckg" name="box_42_16" placeholder=""></div>
 		<!-- Box 43_16 -->
-		<div id="box43_16" class="t sg_3"><input type="text" id="box_43_16" class="redFont greyBckg" name="box_43_16" placeholder="{{}}"></div>
+		<div id="box43_16" class="t sg_3"><input type="text" id="box_43_16" class="redFont greyBckg" name="box_43_16" placeholder=""></div>
 		<!-- Box 44_16 -->
-		<div id="box44_16" class="t sg_3"><input type="text" id="box_44_16" class="width130 redFont greyBckg" name="box_44_16" placeholder="{{}}"></div>
+		<div id="box44_16" class="t sg_3"><input type="text" id="box_44_16" class="width130 redFont greyBckg" name="box_44_16" placeholder=""></div>
 		<!-- box 45_16 -->
-		<div id="box45_16" class="t sb_3"><input type="text" id="box_45_16" class="width60 greyBckg" name="box_45_16" placeholder="{{}}"></div>
+		<div id="box45_16" class="t sb_3"><input type="text" id="box_45_16" class="width60 greyBckg" name="box_45_16" placeholder=""></div>
 		<!-- box 46_16 -->
 		<div id="box46_16" class="t 
-		sg_3"><input type="text" id="box_46_16" class="width70 redFont greyBckg" name="box_46_16" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_16" class="width70 redFont greyBckg" name="box_46_16" placeholder=""></div>
 		<!-- Box 47_16 -->
-		<div id="box47_16" class="t sg_3"><input type="text" id="box_47_16" class="width85 redFont greyBckg" name="box_47_16" placeholder="{{}}"></div>
+		<div id="box47_16" class="t sg_3"><input type="text" id="box_47_16" class="width85 redFont greyBckg" name="box_47_16" placeholder=""></div>
 		<!-- Box 48_16 -->
-		<div id="box48_16" class="t sh_3"><input type="text" id="box_48_16" class="width85 redFont greyBckg" name="box_48_16" placeholder="{{}}"></div>
+		<div id="box48_16" class="t sh_3"><input type="text" id="box_48_16" class="width85 redFont greyBckg" name="box_48_16" placeholder=""></div>
 		<!-- Box 49_16 -->
-		<div id="box49_16" class="t sh_3"><input type="text" id="box_49_16" class="width18 greyBckg" name="box_49_16" placeholder="{{}}"></div>
+		<div id="box49_16" class="t sh_3"><input type="text" id="box_49_16" class="width18 greyBckg" name="box_49_16" placeholder=""></div>
 
 		<!-- Box 42_17-->
-		<div id="box42_17" class="t sg_3"><input type="text" id="box_42_17" class="width35 redFont" name="box_42_17" placeholder="{{}}"></div>
+		<div id="box42_17" class="t sg_3"><input type="text" id="box_42_17" class="width35 redFont" name="box_42_17" placeholder=""></div>
 		<!-- Box 43_17 -->
-		<div id="box43_17" class="t sg_3"><input type="text" id="box_43_17" class="redFont" name="box_43_17" placeholder="{{}}"></div>
+		<div id="box43_17" class="t sg_3"><input type="text" id="box_43_17" class="redFont" name="box_43_17" placeholder=""></div>
 		<!-- Box 44_17 -->
-		<div id="box44_17" class="t sg_3"><input type="text" id="box_44_17" class="width130 redFont" name="box_44_17" placeholder="{{}}"></div>
+		<div id="box44_17" class="t sg_3"><input type="text" id="box_44_17" class="width130 redFont" name="box_44_17" placeholder=""></div>
 		<!-- box 45_17 -->
-		<div id="box45_17" class="t sb_3"><input type="text" id="box_45_17" class="width60" name="box_45_17" placeholder="{{}}"></div>
+		<div id="box45_17" class="t sb_3"><input type="text" id="box_45_17" class="width60" name="box_45_17" placeholder=""></div>
 		<!-- box 46_17 -->
 		<div id="box46_17" class="t 
-		sg_3"><input type="text" id="box_46_17" class="width70 redFont" name="box_46_17" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_17" class="width70 redFont" name="box_46_17" placeholder=""></div>
 		<!-- Box 47_17 -->
-		<div id="box47_17" class="t sg_3"><input type="text" id="box_47_17" class="width85 redFont" name="box_47_17" placeholder="{{}}"></div>
+		<div id="box47_17" class="t sg_3"><input type="text" id="box_47_17" class="width85 redFont" name="box_47_17" placeholder=""></div>
 		<!-- Box 48_17 -->
-		<div id="box48_17" class="t sh_3"><input type="text" id="box_48_17" class="width85 redFont" name="box_48_17" placeholder="{{}}"></div>
+		<div id="box48_17" class="t sh_3"><input type="text" id="box_48_17" class="width85 redFont" name="box_48_17" placeholder=""></div>
 		<!-- Box 49_17 -->
-		<div id="box49_17" class="t sh_3"><input type="text" id="box_49_17" class="width18" name="box_49_17" placeholder="{{}}"></div>
+		<div id="box49_17" class="t sh_3"><input type="text" id="box_49_17" class="width18" name="box_49_17" placeholder=""></div>
 
 		<!-- Box 42_18-->
-		<div id="box42_18" class="t sg_3"><input type="text" id="box_42_18" class="width35 redFont greyBckg" name="box_42_18" placeholder="{{}}"></div>
+		<div id="box42_18" class="t sg_3"><input type="text" id="box_42_18" class="width35 redFont greyBckg" name="box_42_18" placeholder=""></div>
 		<!-- Box 43_18 -->
-		<div id="box43_18" class="t sg_3"><input type="text" id="box_43_18" class="redFont greyBckg" name="box_43_18" placeholder="{{}}"></div>
+		<div id="box43_18" class="t sg_3"><input type="text" id="box_43_18" class="redFont greyBckg" name="box_43_18" placeholder=""></div>
 		<!-- Box 44_18 -->
-		<div id="box44_18" class="t sg_3"><input type="text" id="box_44_18" class="width130 redFont greyBckg" name="box_44_18" placeholder="{{}}"></div>
+		<div id="box44_18" class="t sg_3"><input type="text" id="box_44_18" class="width130 redFont greyBckg" name="box_44_18" placeholder=""></div>
 		<!-- box 45_18 -->
-		<div id="box45_18" class="t sb_3"><input type="text" id="box_45_18" class="width60 greyBckg" name="box_45_18" placeholder="{{}}"></div>
+		<div id="box45_18" class="t sb_3"><input type="text" id="box_45_18" class="width60 greyBckg" name="box_45_18" placeholder=""></div>
 		<!-- box 46_18 -->
 		<div id="box46_18" class="t 
-		sg_3"><input type="text" id="box_46_18" class="width70 redFont greyBckg" name="box_46_18" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_18" class="width70 redFont greyBckg" name="box_46_18" placeholder=""></div>
 		<!-- Box 47_18 -->
-		<div id="box47_18" class="t sg_3"><input type="text" id="box_47_18" class="width85 redFont greyBckg" name="box_47_18" placeholder="{{}}"></div>
+		<div id="box47_18" class="t sg_3"><input type="text" id="box_47_18" class="width85 redFont greyBckg" name="box_47_18" placeholder=""></div>
 		<!-- Box 48_18 -->
-		<div id="box48_18" class="t sh_3"><input type="text" id="box_48_18" class="width85 redFont greyBckg" name="box_48_18" placeholder="{{}}"></div>
+		<div id="box48_18" class="t sh_3"><input type="text" id="box_48_18" class="width85 redFont greyBckg" name="box_48_18" placeholder=""></div>
 		<!-- Box 49_18 -->
-		<div id="box49_18" class="t sh_3"><input type="text" id="box_49_18" class="width18 greyBckg" name="box_49_18" placeholder="{{}}"></div>
+		<div id="box49_18" class="t sh_3"><input type="text" id="box_49_18" class="width18 greyBckg" name="box_49_18" placeholder=""></div>
 
 		<!-- Box 42_19-->
-		<div id="box42_19" class="t sg_3"><input type="text" id="box_42_19" class="width35 redFont" name="box_42_19" placeholder="{{}}"></div>
+		<div id="box42_19" class="t sg_3"><input type="text" id="box_42_19" class="width35 redFont" name="box_42_19" placeholder=""></div>
 		<!-- Box 43_19 -->
-		<div id="box43_19" class="t sg_3"><input type="text" id="box_43_19" class="redFont" name="box_43_19" placeholder="{{}}"></div>
+		<div id="box43_19" class="t sg_3"><input type="text" id="box_43_19" class="redFont" name="box_43_19" placeholder=""></div>
 		<!-- Box 44_19 -->
-		<div id="box44_19" class="t sg_3"><input type="text" id="box_44_19" class="width130 redFont" name="box_44_19" placeholder="{{}}"></div>
+		<div id="box44_19" class="t sg_3"><input type="text" id="box_44_19" class="width130 redFont" name="box_44_19" placeholder=""></div>
 		<!-- box 45_19 -->
-		<div id="box45_19" class="t sb_3"><input type="text" id="box_45_19" class="width60" name="box_45_19" placeholder="{{}}"></div>
+		<div id="box45_19" class="t sb_3"><input type="text" id="box_45_19" class="width60" name="box_45_19" placeholder=""></div>
 		<!-- box 46_19 -->
 		<div id="box46_19" class="t 
-		sg_3"><input type="text" id="box_46_19" class="width70 redFont" name="box_46_19" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_19" class="width70 redFont" name="box_46_19" placeholder=""></div>
 		<!-- Box 47_19 -->
-		<div id="box47_19" class="t sg_3"><input type="text" id="box_47_19" class="width85 redFont" name="box_47_19" placeholder="{{}}"></div>
+		<div id="box47_19" class="t sg_3"><input type="text" id="box_47_19" class="width85 redFont" name="box_47_19" placeholder=""></div>
 		<!-- Box 48_19 -->
-		<div id="box48_19" class="t sh_3"><input type="text" id="box_48_19" class="width85 redFont" name="box_48_19" placeholder="{{}}"></div>
+		<div id="box48_19" class="t sh_3"><input type="text" id="box_48_19" class="width85 redFont" name="box_48_19" placeholder=""></div>
 		<!-- Box 49_19 -->
-		<div id="box49_19" class="t sh_3"><input type="text" id="box_49_19" class="width18" name="box_49_19" placeholder="{{}}"></div>
+		<div id="box49_19" class="t sh_3"><input type="text" id="box_49_19" class="width18" name="box_49_19" placeholder=""></div>
 
 		<!-- Box 42_20-->
-		<div id="box42_20" class="t sg_3"><input type="text" id="box_42_20" class="width35 redFont greyBckg" name="box_42_20" placeholder="{{}}"></div>
+		<div id="box42_20" class="t sg_3"><input type="text" id="box_42_20" class="width35 redFont greyBckg" name="box_42_20" placeholder=""></div>
 		<!-- Box 43_20 -->
-		<div id="box43_20" class="t sg_3"><input type="text" id="box_43_20" class="redFont greyBckg" name="box_43_20" placeholder="{{}}"></div>
+		<div id="box43_20" class="t sg_3"><input type="text" id="box_43_20" class="redFont greyBckg" name="box_43_20" placeholder=""></div>
 		<!-- Box 44_20 -->
-		<div id="box44_20" class="t sg_3"><input type="text" id="box_44_20" class="width130 redFont greyBckg" name="box_44_20" placeholder="{{}}"></div>
+		<div id="box44_20" class="t sg_3"><input type="text" id="box_44_20" class="width130 redFont greyBckg" name="box_44_20" placeholder=""></div>
 		<!-- box 45_20 -->
-		<div id="box45_20" class="t sb_3"><input type="text" id="box_45_20" class="width60 greyBckg" name="box_45_20" placeholder="{{}}"></div>
+		<div id="box45_20" class="t sb_3"><input type="text" id="box_45_20" class="width60 greyBckg" name="box_45_20" placeholder=""></div>
 		<!-- box 46_20 -->
 		<div id="box46_20" class="t 
-		sg_3"><input type="text" id="box_46_20" class="width70 redFont greyBckg" name="box_46_20" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_20" class="width70 redFont greyBckg" name="box_46_20" placeholder=""></div>
 		<!-- Box 47_20 -->
-		<div id="box47_20" class="t sg_3"><input type="text" id="box_47_20" class="width85 redFont greyBckg" name="box_47_20" placeholder="{{}}"></div>
+		<div id="box47_20" class="t sg_3"><input type="text" id="box_47_20" class="width85 redFont greyBckg" name="box_47_20" placeholder=""></div>
 		<!-- Box 48_20 -->
-		<div id="box48_20" class="t sh_3"><input type="text" id="box_48_20" class="width85 redFont greyBckg" name="box_48_20" placeholder="{{}}"></div>
+		<div id="box48_20" class="t sh_3"><input type="text" id="box_48_20" class="width85 redFont greyBckg" name="box_48_20" placeholder=""></div>
 		<!-- Box 49_20 -->
-		<div id="box49_20" class="t sh_3"><input type="text" id="box_49_20" class="width18 greyBckg" name="box_49_20" placeholder="{{}}"></div>
+		<div id="box49_20" class="t sh_3"><input type="text" id="box_49_20" class="width18 greyBckg" name="box_49_20" placeholder=""></div>
 
 		<!-- Box 42_21-->
-		<div id="box42_21" class="t sg_3"><input type="text" id="box_42_21" class="width35 redFont" name="box_42_21" placeholder="{{}}"></div>
+		<div id="box42_21" class="t sg_3"><input type="text" id="box_42_21" class="width35 redFont" name="box_42_21" placeholder=""></div>
 		<!-- Box 43_21 -->
-		<div id="box43_21" class="t sg_3"><input type="text" id="box_43_21" class="redFont" name="box_43_21" placeholder="{{}}"></div>
+		<div id="box43_21" class="t sg_3"><input type="text" id="box_43_21" class="redFont" name="box_43_21" placeholder=""></div>
 		<!-- Box 44_21 -->
-		<div id="box44_21" class="t sg_3"><input type="text" id="box_44_21" class="width130 redFont" name="box_44_21" placeholder="{{}}"></div>
+		<div id="box44_21" class="t sg_3"><input type="text" id="box_44_21" class="width130 redFont" name="box_44_21" placeholder=""></div>
 		<!-- box 45_21 -->
-		<div id="box45_21" class="t sb_3"><input type="text" id="box_45_21" class="width60" name="box_45_21" placeholder="{{}}"></div>
+		<div id="box45_21" class="t sb_3"><input type="text" id="box_45_21" class="width60" name="box_45_21" placeholder=""></div>
 		<!-- box 46_21 -->
 		<div id="box46_21" class="t 
-		sg_3"><input type="text" id="box_46_21" class="width70 redFont" name="box_46_21" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_21" class="width70 redFont" name="box_46_21" placeholder=""></div>
 		<!-- Box 47_21 -->
-		<div id="box47_21" class="t sg_3"><input type="text" id="box_47_21" class="width85 redFont" name="box_47_21" placeholder="{{}}"></div>
+		<div id="box47_21" class="t sg_3"><input type="text" id="box_47_21" class="width85 redFont" name="box_47_21" placeholder=""></div>
 		<!-- Box 48_21 -->
-		<div id="box48_21" class="t sh_3"><input type="text" id="box_48_21" class="width85 redFont" name="box_48_21" placeholder="{{}}"></div>
+		<div id="box48_21" class="t sh_3"><input type="text" id="box_48_21" class="width85 redFont" name="box_48_21" placeholder=""></div>
 		<!-- Box 49_21 -->
-		<div id="box49_21" class="t sh_3"><input type="text" id="box_49_21" class="width18" name="box_49_21" placeholder="{{}}"></div>
+		<div id="box49_21" class="t sh_3"><input type="text" id="box_49_21" class="width18" name="box_49_21" placeholder=""></div>
 
 		<!-- Box 42_22-->
-		<div id="box42_22" class="t sg_3"><input type="text" id="box_42_22" class="width35 redFont greyBckg" name="box_42_22" placeholder="{{}}"></div>
+		<div id="box42_22" class="t sg_3"><input type="text" id="box_42_22" class="width35 redFont greyBckg" name="box_42_22" placeholder=""></div>
 		<!-- Box 43_22 -->
-		<div id="box43_22" class="t sg_3"><input type="text" id="box_43_22" class="redFont greyBckg" name="box_43_22" placeholder="{{}}"></div>
+		<div id="box43_22" class="t sg_3"><input type="text" id="box_43_22" class="redFont greyBckg" name="box_43_22" placeholder=""></div>
 		<!-- Box 44_22 -->
-		<div id="box44_22" class="t sg_3"><input type="text" id="box_44_22" class="width130 redFont greyBckg" name="box_44_22" placeholder="{{}}"></div>
+		<div id="box44_22" class="t sg_3"><input type="text" id="box_44_22" class="width130 redFont greyBckg" name="box_44_22" placeholder=""></div>
 		<!-- box 45_22 -->
-		<div id="box45_22" class="t sb_3"><input type="text" id="box_45_22" class="width60 greyBckg" name="box_45_22" placeholder="{{}}"></div>
+		<div id="box45_22" class="t sb_3"><input type="text" id="box_45_22" class="width60 greyBckg" name="box_45_22" placeholder=""></div>
 		<!-- box 46_22 -->
 		<div id="box46_22" class="t 
-		sg_3"><input type="text" id="box_46_22" class="width70 redFont greyBckg" name="box_46_22" placeholder="{{}}"></div>
+		sg_3"><input type="text" id="box_46_22" class="width70 redFont greyBckg" name="box_46_22" placeholder=""></div>
 		<!-- Box 47_22 -->
-		<div id="box47_22" class="t sg_3"><input type="text" id="box_47_22" class="width85 redFont greyBckg" name="box_47_22" placeholder="{{}}"></div>
+		<div id="box47_22" class="t sg_3"><input type="text" id="box_47_22" class="width85 redFont greyBckg" name="box_47_22" placeholder=""></div>
 		<!-- Box 48_22 -->
-		<div id="box48_22" class="t sh_3"><input type="text" id="box_48_22" class="width85 redFont greyBckg" name="box_48_22" placeholder="{{}}"></div>
+		<div id="box48_22" class="t sh_3"><input type="text" id="box_48_22" class="width85 redFont greyBckg" name="box_48_22" placeholder=""></div>
 		<!-- Box 49_22 -->
-		<div id="box49_22" class="t sh_3"><input type="text" id="box_49_22" class="width18 greyBckg" name="box_49_22" placeholder="{{}}"></div>
+		<div id="box49_22" class="t sh_3"><input type="text" id="box_49_22" class="width18 greyBckg" name="box_49_22" placeholder=""></div>
 
 		<!-- page x of X-->
 		<div id="t81_3" class="t sc_3">PAGE </div>
 		<div id="t82_3" class="t sc_3">OF </div>
 
-		<div id="tbo_3" class="t sg_3"><input type="text" id="pageX" class="width25 redFont" name="pageX" placeholder="{{}}"></div>
-		<div id="tbp_3" class="t sg_3"><input type="text" id="pageOfX" class="width25 redFont" name="pageOfX" placeholder="{{}}"></div>
+		<div id="tbo_3" class="t sg_3"><input type="text" id="pageX" class="width25 redFont" name="pageX" placeholder=""></div>
+		<div id="tbp_3" class="t sg_3"><input type="text" id="pageOfX" class="width25 redFont" name="pageOfX" placeholder=""></div>
 
 		<!-- box Totals-->
 		<div id="t3h_3" class="t s9_3">TOTALS </div>
 
-		<div id="tb7_3" class="t sg_3"><input type="text" id="totals" class="width70 redFont" name="totals" placeholder="{{}}"></div>
+		<div id="tb7_3" class="t sg_3"><input type="text" id="totals" class="width70 redFont" name="totals" placeholder=""></div>
 
 		<!-- box 48_23 -->
-		<div id="tb6_3" class="t sh_3"><input type="text" id="box_48_23" class="width70" name="box_48_23" placeholder="{{}}"></div>
+		<div id="tb6_3" class="t sh_3"><input type="text" id="box_48_23" class="width70" name="box_48_23" placeholder=""></div>
 		
 		<!-- box Payer name -->
 		<div id="t88_3" class="t s4_3">50 PAYER NAME</div>

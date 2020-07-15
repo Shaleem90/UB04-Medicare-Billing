@@ -1,19 +1,20 @@
 module.exports = function(sequelize, DataTypes) {
     const dbo_UB04 = sequelize.define("dbo_UB04", {
      
-        UB04Id: { 
+        id: { 
             type: DataTypes.INTEGER,
             autoIncrement: true,
             primaryKey: true
         },
         PatientId: { 
             type: DataTypes.INTEGER,
-            allowNull: false
+            allowNull: false,
+
         },
 
         title: { 
-            type: DataTypes.INTEGER,
-            allowNull: false
+            type: DataTypes.STRING(15),
+            allowNull: true
         },
 
         FL1: { 
@@ -75,14 +76,6 @@ module.exports = function(sequelize, DataTypes) {
             type: DataTypes.STRING(4),
             allowNull: false
         },
-
-// MAY BE A DUPLICTE.
-        FL4: { 
-            type: DataTypes.STRING(4),
-            allowNull: false
-            
-        },
-// MAY BE DUPLICATE ABOVE.
 
         FL5: { 
             type: DataTypes.STRING(20),
@@ -184,13 +177,6 @@ module.exports = function(sequelize, DataTypes) {
             allowNull: true
         },
 
-// MAY BE A DUPLICATE
-        FL18: { 
-            type: DataTypes.STRING(2),
-            allowNull: true
-            
-        },
-// DUPLICATE END
         FL19: { 
             type: DataTypes.STRING(2),
             allowNull: true
@@ -1207,13 +1193,10 @@ module.exports = function(sequelize, DataTypes) {
     })
 
 
-    // dbo_UBO4LIneitems.associate = function(models) {
-    //   // Associating Author with Posts
-    //   // When an Author is deleted, also delete any associated Posts
-    //   Author.hasMany(models.Post, {
-    //     onDelete: "cascade"
-    //   });
-    // };
+    dbo_UB04.associate = function(models) {
+  
+        dbo_UB04.hasOne(models.dbo_UB04LineItem, { through: 'PatientId' });
+    };
 
     return dbo_UB04;
-  };
+};

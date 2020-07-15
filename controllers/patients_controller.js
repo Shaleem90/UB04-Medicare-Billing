@@ -6,17 +6,9 @@ exports.index = function (req, res) {
     }).then(name => {
         console.log(name)
         res.render("index", {
-            layouts:"main",
+            layouts:"main-patients",
             name
         });
     }).catch(err => console.log(err))
-    // db.dbo_UBO4LIneitems.findAll({
-    // }).then(name => {
-    //     console.log(name)
-    //     res.render("index", {
-    //         layouts:"main",
-    //         name
-    //     });
-    // }).catch(err => console.log(err))
     
 }
