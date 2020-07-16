@@ -8,7 +8,7 @@ module.exports = function (sequelize, DataTypes) {
     },
 
     PatientId: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING(20),
       allowNull: false
     },
 
@@ -62,7 +62,7 @@ module.exports = function (sequelize, DataTypes) {
 
   dbo_UB04LineItem.associate = function (models) {
 
-    dbo_UB04LineItem.belongsTo(models.dbo_UB04, { through: 'PatientId' });
+    dbo_UB04LineItem.belongsTo(models.dbo_UB04, {foreignKey: "id",  constraints: false});
   };
 
   return dbo_UB04LineItem;
