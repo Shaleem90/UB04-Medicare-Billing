@@ -4,17 +4,18 @@ exports.ub04 = function (req, res) {
   //calls long table to fill in more of the ub04space
   db.dbo_UB04LineItem.findOne({
     where: {
-      id: 1
-      // UB04: req.params.UB04
+      // id: 1
+      id: req.params.id
     },
     include: [
       {
-        model: db.dbo_UB04LineItem
+        model: db.dbo_UB04
       }
     ]
   }).then(result => {
     
     console.log(result)
+   
     const FL42_Revenue_Code = JSON.parse(result.dataValues.FL42_Revenue_Code);
     const FL43_Description = JSON.parse(result.dataValues.FL43_Description);
     const FL44_HCPS_Rates = JSON.parse(result.dataValues.FL44_HCPS_Rates);
@@ -22,11 +23,11 @@ exports.ub04 = function (req, res) {
     const FL46_Service_Units = JSON.parse(result.dataValues.FL46_Service_Units);
     const FL47_Total_Charges = JSON.parse(result.dataValues.FL47_Total_Charges);
     const FL48_Noncovered_Charges = JSON.parse(result.dataValues.FL48_Noncovered_Charges);
-    const FL49 = result.dataValues.FL49;
+    const FL49 = JSON.parse(result.dataValues.FL49);
 
     res.render("ub04form", {
       layouts: "main",
-      object: [FL42_Revenue_Code, FL43_Description, FL44_HCPS_Rates, FL45_Service_Date, FL46_Service_Units, FL47_Total_Charges, FL48_Noncovered_Charges,FL49]
+      object: [FL42_Revenue_Code, FL43_Description, FL44_HCPS_Rates, FL45_Service_Date, FL46_Service_Units, FL47_Total_Charges, FL48_Noncovered_Charges,FL49, result]
     });
 
   }).catch(err => console.log(err))
