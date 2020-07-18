@@ -1,6 +1,7 @@
 const db = require("../models");
 
 exports.ub04 = function (req, res) {
+  const id = req.params.id;
   //calls long table to fill in more of the ub04space
   db.dbo_UB04LineItem.findOne({
     where: {
