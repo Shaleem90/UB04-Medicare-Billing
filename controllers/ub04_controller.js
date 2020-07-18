@@ -1177,7 +1177,8 @@ exports.ub04 = function (req, res) {
 
     res.render("ub04form", {
       layouts: "main",
-      object: allPages
+      object: allPages,
+      id: id
     });
 
   }).catch(err => console.log(err))
