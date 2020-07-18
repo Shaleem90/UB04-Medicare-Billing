@@ -28,12 +28,12 @@ module.exports = function (sequelize, DataTypes) {
     },
 
     FL44_HCPS_Rates: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: true
     },
 
     FL45_Service_Date: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: true
     },
 
@@ -54,7 +54,7 @@ module.exports = function (sequelize, DataTypes) {
     },
 
     FL49: {
-      type: DataTypes.STRING,
+      type: DataTypes.TEXT,
       allowNull: true
     }
 
