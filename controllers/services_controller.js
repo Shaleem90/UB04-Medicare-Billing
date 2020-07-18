@@ -127,10 +127,6 @@ exports.ub04services = function (req, res) {
       response
 
     })
-
-
-
-
   }).catch(err => console.log(err));
 
 }
