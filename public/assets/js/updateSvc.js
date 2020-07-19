@@ -221,7 +221,9 @@ $(function () {
       data: form
     })
       .then(function () {
+        alert("Patient Info Updated")
         res.send({redirect: "/ub04form/" +id});
+        
       });
   }
 });

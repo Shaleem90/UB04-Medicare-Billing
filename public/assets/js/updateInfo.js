@@ -408,7 +408,9 @@ $(function () {
       data: form
     })
       .then(function () {
+        
         res.send({ redirect: "/ub04form/" + id });
+        
       });
   }
 });

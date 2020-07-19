@@ -6,7 +6,7 @@ $(function () {
         //grab the id of the person
         const id = $(this).data("id");
         console.log(id)
-        window.location.href="ub04form/"+id
+        window.open("ub04form/"+id , "_blank")
         
     })
 
