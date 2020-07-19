@@ -527,6 +527,21 @@ module.exports = function(sequelize, DataTypes) {
             allowNull: true
         },
 
+        FL45_23: { 
+            type: DataTypes.TEXT,
+            allowNull: true
+        },
+
+        FL47_23: { 
+            type: DataTypes.DECIMAL(10,2),
+            allowNull: true
+        },
+        
+        FL48_23: { 
+            type: DataTypes.DECIMAL(10,2),
+            allowNull: true
+        },
+
         FL50_a: { 
             type: DataTypes.STRING(50),
             allowNull: false

@@ -760,18 +760,16 @@
 
 		<!-- page x of X-->
 		<div id="t81_3" class="t sc_3">PAGE </div>
-		<div id="t82_3" class="t sc_3">OF </div>
 
-		<div id="tbo_3" class="t sg_3"><input type="text" id="pageX" class="width25 redFont" name="pageX" value=""></div>
-		<div id="tbp_3" class="t sg_3"><input type="text" id="pageOfX" class="width25 redFont" name="pageOfX" value=""></div>
+		<div id="tbo_3" class="t sg_3"><input type="text" id="pageX" class="width25 page" name="pageX" value="{{this.9.page}}"></div>
 
 		<!-- box Totals-->
 		<div id="t3h_3" class="t s9_3">TOTALS </div>
 
-		<div id="tb7_3" class="t sg_3"><input type="text" id="totals" class="width70 redFont" name="totals" value=""></div>
+		<div id="tb7_3" class="t sg_3"><input type="text" id="totals" class="width70 redFont" name="totals" placeholder="total" value="{{this.8.dbo_UB04.dataValues.FL47_23}}"></div>
 
 		<!-- box 48_23 -->
-		<div id="tb6_3" class="t sh_3"><input type="text" id="box_48_23" class="width70" name="box_48_23" value="{{this.6.nonCov23}}"></div>
+		<div id="tb6_3" class="t sh_3"><input type="text" id="box_48_23" class="width70" name="box_48_23" placeholder="total non-covered"value="{{this.8.dbo_UB04.dataValues.FL48_23}}"></div>
 		
 		<!-- box Payer name -->
 		<div id="t88_3" class="t s4_3">50 PAYER NAME</div>
@@ -1245,6 +1243,7 @@
 		<div id="t5b_3" class="t sa_3">.</div>
 		<div id="t75_3" class="t s4_3">68</div>
 		<div id="t7n_3" class="t sc_3">CREATION DATE </div>
+		<div id="boxcreateDate" class="t sb_3"><input type="text" id="box_creationDate" class="width60" name="box_creationDate" placeholder="MM/DD/YYYY" value="{{this.8.dbo_UB04.dataValues.FL45_23}}"></div>
 		<div id="t7s_3" class="t s4_3">#</div>
 		<div id="t83_3" class="t s4_3">APPROVED OMB NO .</div>
 		<div id="t84_3" class="t sb_3">e</div>
@@ -1278,6 +1277,7 @@
 		<div id="t9k_3" class="t s7_3">b</div>
 		<div id="tcx_3" class="t sl_3"><button type="button" class="update" data-id={{this.8.dbo_UB04.dataValues.id}}>Update Patient Information</button></div>
 		<div id="tcy_3" class="t sm_3"> <button type="button" class="update" data-id={{this.8.dbo_UB04.dataValues.id}}>Update Services</button></div>
+		
 	</div>
 </form>
 {{/each}}
