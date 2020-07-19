@@ -209,6 +209,15 @@ exports.ub04ptInfo = function (req, res) {
                 FL41_d1: req.body.FL41_d1,
                 FL41_d2: req.body.FL41_d2,
 
+                //box 45_23 data
+                FL45_23: req.body.FL45_23,
+
+                //box 47_23 data
+                FL47_23: req.body.FL47_23,
+
+                //box 48_23 data
+                FL48_23: req.body.FL48_23,
+
                 //box 50 data
                 FL50_a: req.body.FL50_a,
                 FL50_b: req.body.FL50_b,

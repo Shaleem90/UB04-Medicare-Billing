@@ -449,7 +449,7 @@
 #box53b{left:460px;bottom:453px;}
 #box52c{left:431px;bottom:436px;}
 #box53c{left:460px;bottom:436px;}
-#tbo_3{left:150px;bottom:502px;}
+#tbo_3{left:150px;bottom:499px;}
 #tbp_3{left:213px;bottom:502px;}
 #tbq_3{left:70px;bottom:467px;}
 #tbr_3{left:71px;bottom:451px;}
@@ -543,8 +543,9 @@
 #tcv_3{left:564px;bottom:838px;}
 #box46_3{left:564px;bottom:824px;}
 #tcw_3{left:402px;bottom:1144px;}
-#tcx_3{left:280px;bottom:67px;}
-#tcy_3{left:280px;bottom:49px;}
+#tcx_3{left:280px;bottom:70px;}
+#tcy_3{left:500px;bottom:70px;}
+
 /* new empty tags */
 #box42_4{left:64px;bottom:807px;}
 #box43_4{left:109px;bottom:807px;}
@@ -698,7 +699,7 @@
 #box47_22{left:642px;bottom:516px;}
 #box48_22{left:740px;bottom:516px;}
 #box49_22{left:833.5px;bottom:516px;}
-
+#boxcreateDate{left:495px;bottom:502px;}
 
 
 .s1_3{font-size:55px;font-family:FuturaStd-Bold_2a;color:#93A289;}

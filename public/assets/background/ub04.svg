@@ -13,14 +13,14 @@ fill: #0168B3;
 fill: #EB352D;
 }
 .g2_3{
-fill: #E7E8E8;
+fill: #FCCCC7
 }
 .g3_3{
-fill: #231F20;
+fill: #cc0000;
 }
 .g4_3{
 fill: none;
-stroke: #231F20;
+stroke: #cc0000;
 stroke-width: 0.672;
 stroke-linecap: butt;
 stroke-linejoin: miter;
@@ -34,7 +34,7 @@ stroke-linejoin: miter;
 }
 .g6_3{
 fill: none;
-stroke: #231F20;
+stroke: #cc0000;
 stroke-width: 0.672;
 stroke-linecap: round;
 stroke-linejoin: miter;
@@ -56,7 +56,7 @@ fill: #E3E4E5;
 }
 .ga_3{
 fill: none;
-stroke: #231F20;
+stroke: #cc0000;
 stroke-width: 1.344;
 stroke-linecap: butt;
 stroke-linejoin: miter;
@@ -64,7 +64,7 @@ stroke-miterlimit: 4;
 }
 .gb_3{
 fill: none;
-stroke: #231F20;
+stroke: #cc0000;
 stroke-width: 1.527;
 stroke-linecap: butt;
 stroke-linejoin: miter;
@@ -190,7 +190,7 @@ stroke-miterlimit: 4;
 <path d="M352.3,210.6h96.9V194.5H352.3v16.1Z" class="g3_3"/>
 <path d="M613.6,839.6v64.5" class="g4_3"/>
 <path d="M61.5,81.5H545.6M61.8,97.7H545.6M61.9,113.8H545.6" class="g5_3"/>
-<path d="M826.7,146.3V162M720.1,146.3V162m-9.7,-15.7V162m-29,-15.6v15.7m-9.7,-15.8V162M362,146.1v16.1m87.2,32.2v48.4M149.7,707.9h29.5m28.4,0h29.5" class="g4_3"/>
+
 <path d="M561.7,710.6h77.5V694.5H561.7v16.1Z" class="g3_3"/>
 <path d="M613.4,707.1h18.3v-8.9H613.4v8.9Z" class="g7_3"/>
 <path fill-rule="evenodd" d="M631,696.2l6.7,6.2l-6.7,6.7Z" class="g7_3"/>
