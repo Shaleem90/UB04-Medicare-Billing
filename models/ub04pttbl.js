@@ -534,12 +534,14 @@ module.exports = function(sequelize, DataTypes) {
 
         FL47_23: { 
             type: DataTypes.DECIMAL(10,2),
-            allowNull: true
+            allowNull: true,
+            defaultValue: 0.00
         },
         
         FL48_23: { 
             type: DataTypes.DECIMAL(10,2),
-            allowNull: true
+            allowNull: true,
+            defaultValue: 0.00
         },
 
         FL50_a: { 
