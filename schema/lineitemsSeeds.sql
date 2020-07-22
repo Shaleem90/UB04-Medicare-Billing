@@ -1,4 +1,4 @@
-USE ub04_db;
+USE ub04Test;
 INSERT INTO dbo_UB04LineItems (PatientId, Client_Name, FL42_Revenue_Code, FL43_Description, FL44_HCPS_Rates, FL45_Service_Date, FL46_Service_Units, FL47_Total_Charges, FL48_Noncovered_Charges, FL49)
 VALUES
 ("7895", "Mikel Rodriguez", '{"code1": "0018", "code2": "0121", "code3": "0112"}','{"serv1": "Physician", "serv2": "Dental", "serv3": "Consultation"}',
