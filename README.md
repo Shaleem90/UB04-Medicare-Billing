@@ -1,4 +1,4 @@
-# HospiceMD-UB04
+# UB04-Medicare-Billing
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Shaleem90/HospiceMD-UB04?logo=github)
 ![GitHub top language](https://img.shields.io/github/languages/top/Shaleem90/HospiceMD-UB04?color=green&logo=github&logoColor=green)
